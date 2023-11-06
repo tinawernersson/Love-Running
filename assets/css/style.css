@@ -49,6 +49,7 @@ main {
 background-color: lightblue;
 /*Makes main element take up any surplus space to push down fotter element*/
 flex: 1 0 auto;
+margin-top: 47px;
 }
 
 #menu {
