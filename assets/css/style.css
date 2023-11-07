@@ -114,6 +114,48 @@ main {
 color: #ffffff;
 }
 
+#reasons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#reasons h2 {
+margin-bottom: 20px;
+text-align:center;
+    font-size: 280%;
+}
+
+#benefits {
+    margin-top: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits-physical > div #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*Makes the picture circular*/
+    border-radius: 50%;
+
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
