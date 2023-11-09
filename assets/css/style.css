@@ -213,6 +213,14 @@ border: 2px solid white;
     color: #3a3a3a;
 }
 
+/*Media query for large or landscape phones*/
+@media screen and (min-width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /*Media query: tablets and larger (768 px an up)*/
 @media screen and (min-width:768px) {
 
@@ -271,11 +279,19 @@ border: 2px solid white;
         text-align: end;
         align-self: flex-end;
     }
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+    }
 
     /*Large media devices (laptops and desktops 992px or larger)*/
     @media screen and (min-width:992px) {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
+        }
+
+        #photos {
+            column-count: 4;
         }
 
         /*Bigger media devices (1200px and up)*/
