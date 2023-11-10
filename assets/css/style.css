@@ -77,7 +77,7 @@ nav {
 }
 
 /*Nav-toggle*/
-#nav-toggle:checked~nav {
+#nav-toggle:checked {
     display: blocked;
 }
 
